@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::-webkit-scrollbar {
+  width: 0;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.card-row-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+.card-column-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.card-column-container img {
+  width: 100%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black !important;
+  border-radius: 50%;
+  padding: 5px;
+  width: 60px !important;
+  height: 60px !important;
+  background-size: 50% 50% !important;
+}
