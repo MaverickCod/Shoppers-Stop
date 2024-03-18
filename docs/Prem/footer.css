@@ -1,4 +1,4 @@
-* {
+footer {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,17 +7,19 @@
     color: rgb(51, 51, 51);
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
+
   ul li {
     list-style: none;
   }
+  
   .appStore > a > img,
   .googlePlay > a > img {
-    width: 120px;
+    width: 70px;
     margin: 5px;
   }
   .authenticProduct > img,
-  .freeDelivery > img,
-  .easyExchangeAndReturn > img,
+  .securepayement > img,
+  .easyreturnandexchange > img,
   .expressStorePickup > img {
     height: 50px;
     width: 50px;
@@ -46,6 +48,9 @@
     color: #646464;
     padding-bottom: 15px;
     font-weight: 400;
+    margin: 5px;
+    display: flex;
+    padding: 2px 5px;
   }
   .f1b1 ul {
     width: 100%;
@@ -54,36 +59,15 @@
   .f1b1 ul li {
     float: left;
   }
-  /* .services{
-    display: flex;
-    justify-content: left;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  .services > ul > li {
-    float: left;
-    text-align: center;
-    width: 25%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-  .services li span {
-    width: 100%;
-    display: block;
-    padding-top: 10px;
-    font-size: 11px;
-    color: #999;
-  } */
+  
 
   .services {
     padding: 20px 20px;
-    margin: auto;
+    margin: 0;
     text-align: center;
     background-color: rgb(245,245,245);
+    float: left;
+    width: 60%;
     }
 
 
@@ -115,10 +99,113 @@
     margin-right: 15px;
   }
   .f1b3 ul li a {
-    display: block;
+    display: inline;
     width: 20px;
     height: 20px;
   }
+
+  /* css for dropdown */
+
+
+  .container-2 {
+    width: 40%;
+    background-color: rgb(245, 245, 245);
+}
+
+.dropdown {
+    min-width: 30rem;
+    position: relative;
+    margin: 2em;
+    justify-content: space-evenly;
+    width: 75%;
+    left: -5%;
+}
+
+.dropdown>i {
+    height: 2px;
+    width: 2px;
+}
+
+.dropdown * {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.select {
+    background: #fff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px #d7d6d6 solid;
+    padding: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.select-clicked {
+    border: 2px #d7d6d6 solid;
+    box-shadow: 0 0 0.8em #26489a;
+}
+
+.caret {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #fff; 
+    transition: 0.3s;
+}
+
+.caret-rotate {
+    transform: rotate(180deg);
+}
+
+.menu {
+    list-style: none;
+    padding: 0.25rem 0.25rem;
+    background: #000;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    color: white;
+    position: absolute;
+    top: 3rem;
+    left: 0%;
+    width: 95%;
+    opacity: 0;
+    display: none;
+    transition: 0.2s;
+    z-index: 1;
+}
+
+.menu > li {
+    padding: 0.7rem 0.5rem;
+    margin: 0.3rem 0;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+.menu li:hover {
+    background: #2a2d35;
+}
+
+.active {
+    background: #2a2d35;
+}
+
+.menu-open {
+    display: block;
+    opacity: 1;
+}
+
+
+
+  /* css for dropdown */
+
   /* <!-- footer-1 end--> */
   
   /* <!-- footer-2 start--> */
@@ -166,12 +253,18 @@
  
   /* Content part */
 
+  #content{
+    padding: 10px 5px;
+    margin: 5px 5px;
+    margin-bottom: 20px;
+  }
   #content > p > a{
     color: #ff5d3b;
   }
   /* Content part */
 
   /* bottom black footer */
+
 
   .col-md-2{
     position: relative;
@@ -180,19 +273,22 @@
     padding-right: 20px;
   }
 
-  .bg-black {
+
+  .col-md-2 > h3  , .col-md-2 >li >a{
+    color: #fff;
+  }
+
+ .container-last{
     display: block;
-
+    width: 100%;
+    height: 100%;
+    z-index: 1;
   }
-  .bg-black .col-md-2 li {
-    margin-top: 0;
-  }
 
-  .bg-black .col-md-2 li {
-    margin-top: 0;
-}
   
-
+.last-section{
+  background-color: #000;
+}
 
   /* bottom black footer */
 
@@ -202,7 +298,8 @@
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
     padding: 30px;
-  }
+    gap: 30px;
+}
   .last_cont > ul > li {
     font: 12px PTSans-Regular;
     padding: 0px 0px 10px;
@@ -211,6 +308,9 @@
   .last_cont > ul > li > h4 {
     color: #000;
   }
+
+
+
   @media screen and (max-width: 600px) {
     .last_cont {
       display: grid;
@@ -231,9 +331,13 @@
   }
 
 
-  @media screen and (max-width:1024px){
+  @media screen and (min-width:1200px){
     .col-md-2 {
       width: 16.66666667%;
       float: left;
+    }
+    .container-last{
+      background-color: #000;
+      color: #fff;
     }
   }
