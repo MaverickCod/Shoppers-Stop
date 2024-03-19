@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+.container {
+    max-width: 82.2rem;
+    margin: 1% auto;
+}
+.up-btn {
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    
+}
+header{
+    position: relative;
+}
+nav{
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    border-bottom: 1px solid rgb(181, 181, 181);
+    z-index: 8;
+}
+.nav-left .luxe{
+    color: rgb(218, 185, 4);
+    font-size: 28px;
+    font-family: emoji;
+    margin-top: -4px;
+}
+.nav-left {
+    color: ;
+    display: flex;
+    align-items: center
+    font-size: ;
+}
+.nav-left a {
+    text-decoration: none;
+    font-size: large;
+    margin: 0 6%;
+    font-weight: 700;
+    color: black;
+}
+.nav-left a{
+    border-bottom: 3px solid white;
+    
+}
+.nav-left a:hover{
+    border-bottom: 3px solid red;
+    
+}
+
+.hamburger{
+    display: none;
+}
+nav img {
+    width: 86%;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    
+}
+.nav-right span {
+    margin: 0 1%;
+    color: black;
+}
+.nav-right input{
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    outline: none;
+    width: 200px;
+}
+.nav-right>div{
+    margin: 0 10px;
+}
+/* .nav-right input[type=text] {
+    border-radius: 0 ;
+    box-shadow: none;
+} */
+.search{
+    border-bottom: 1px solid gray;
+    display: flex;
+}
+.menu-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 4%;
+    margin-top: 69px;
+    margin-bottom: 1%;
+    z-index: 5;
+    flex-wrap: wrap;
+}
+.menu-list a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    
+}
+.menu-list div{
+    border-bottom: 3px solid white;
+}
+.menu-list div:hover{
+    border-bottom: 3px solid black;
+    transition: ease-in;
+
+}
+.dress-sale h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 500;
+}
+.extra-img img{
+    
+    width: 100%;
+    
+}
+/* .extra-big {
+    
+} */
+img{
+    max-width: 100%;
+}
+.top-brands {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.top-brands>div{
+    width: 268px;
+    height: 401px;
+    margin-top: 2%;
+}
+.container >div{
+    margin: 3% 0;
+}
+.dress-sale .main-carousel .carousel-cell{
+    width: 218px;
+    height: 484px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin: 3%;
+    cursor: pointer;
+}
+.dress-sale .main-carousel img{
+    width: 218px;
+    height: 323px;
+}
+.dress-sale .main-carousel .carousel-cell a{
+    color: black;
+    font-weight: 700;
+    margin: 2% 28%;
+    
+    
+}
+.sale-text p{
+    color: grey;
+}
+.sale-text{
+    padding: 2%;
+}
+.sale-text h4{
+    font-weight: 500;
+}
+.sale-text .price .cross{
+    text-decoration: line-through;
+    margin-left: 3%;
+}
+.sale-text .price .red{
+    color: red;
+    margin-left: 3%;
+}
+.sale-text .price{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 3%;
+}
+.watch-w {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.favourites{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.favourites> div{
+    width: 48%;
+}
+.favourites .right> div{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.favourites .right h2{
+    font-size: 30px;
+    margin-left: 2%;
+}
+.right-one {
+    width: 49%;
+}
+.right-two {
+    width: 49%;
+    margin-top: 4%;
+}
