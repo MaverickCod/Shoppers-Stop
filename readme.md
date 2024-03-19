@@ -50,7 +50,7 @@ The Shoppers Stop website clone project is a comprehensive endeavor to closely m
 
 To run this project locally, follow these steps:
 
-1. Clone the repository: `git clone [https://github.com/your-username/shoppers-stop-clone.git](https://github.com/nsb199/Shoppers-Stop.git)`
+1. Clone the repository: `git clone [https://github.com/nsb199/Shoppers-Stop.git](https://github.com/nsb199/Shoppers-Stop.git)`
 2. Open the `index.html` file in your browser.
 
 ## Challenges Faced and Resolutions
