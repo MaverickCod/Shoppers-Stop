@@ -95,7 +95,7 @@
         class="extra-img main-carousel"
         data-flickity='{ "cellAlign": "left", "contain": true , "autoPlay": true , "wrapAround":true , "friction":0.2, "selectedAttraction":0.01, "pageDots":false }'
       >
-        <a href="#" class="carousel-cell">
+        <a href="#" class="carousel-cell extra-big">
           <img
             src="https://sslimages.shoppersstop.com/sys-master/root/hec/h0b/32266426974238/PB-web_Womens%20Page_14-03-2024.jpg"
             alt=""
@@ -1503,5 +1503,23 @@
         /></a>
       </div>
     </section>
+    <div class="loader-wrapper">
+      <img
+        src="C:\Users\anura\Downloads\shopping-cart-ecomm.gif"
+        alt="Loading..."
+        class="loader"
+      />
+    </div>
+    <div class="side-pink"><p>Recently Viewed</p></div>
+    <script>
+      const loaderDisplayDuration = 1000; // 2000 milliseconds = 2 seconds
+
+      window.addEventListener("load", function () {
+        const loader = document.querySelector(".loader-wrapper");
+        setTimeout(function () {
+          loader.style.display = "none";
+        }, loaderDisplayDuration);
+      });
+    </script>
   </body>
 </html>
