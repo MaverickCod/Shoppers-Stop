@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto , sans-serif;
+}
+.top-bar {
+    background-color: rgb(248,248,248);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 21rem;
+display: flex;
+align-items: center;
+
+}
+
+.top-bar a {
+    text-decoration: none;
+    color: rgb(153,155,162);
+    font-size: smaller;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+   
+}
+.box-for-all {
+    width: 25%;
+    color: #333;
+    
+}
+.submitquery {
+    display: flex;
+    justify-content: space-between;
+}
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+   
+
+}
+.input-1 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 0.5rem;
+    border: 1px solid rgb(229,229,229);
+   
+}
+.input-1:focus {
+    outline: none;
+}
+.input-1::placeholder {
+    rgb(153,153,153);
+    font-size: smaller;
+    font-weight: 100;
+}
+
+.input-2 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 0.5rem;
+    border: 1px solid rgb(229,229,229);
+    margin-left: auto;
+    
+
+}
+.input-2:focus {
+    outline: none;
+}
+.input-2::placeholder {
+    rgb(153,153,153);
+    font-size: smaller;
+    font-weight: 100;
+}
+
+
+.input-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 0.5rem;
+    border: 1px solid rgb(229,229,229);
+    width: 100%;
+
+}
+.input-3:focus {
+    outline: none;
+
+}
+.input-3::placeholder {
+    rgb(153,153,153);
+    font-size: smaller;
+    font-weight: 100;
+}
