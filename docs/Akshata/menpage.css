@@ -64,6 +64,9 @@ header{
   font-family: emoji;
   margin-top: -4px;
 }
+.nav-left .luxe:hover {
+  color: rgb(218, 185, 4);
+}
 .nav-left {
   color: ;
   display: flex;
@@ -83,7 +86,8 @@ header{
 }
 .nav-left a:hover{
   border-bottom: 3px solid red;
-  
+  text-decoration: none;
+  color: black;
 }
 
 .hamburger{
@@ -132,6 +136,10 @@ nav img {
   text-decoration: none;
   color: black;
   font-weight: 600;
+}
+.menu-list a:hover {
+  text-decoration: none;
+  color: black;
 }
 .menu-list div{
   border-bottom: 3px solid white;

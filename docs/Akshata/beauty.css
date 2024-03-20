@@ -104,6 +104,155 @@
         background-size: 50% 50% !important;
       }
       
+      /* header start */
+
+header{
+  position: relative;
+}
+#top >nav{
+  display: flex;
+  max-width: 100%;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 1%;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  border-bottom: 1px solid rgb(181, 181, 181);
+  z-index: 8;
+}
+.nav-left .luxe{
+  color: rgb(218, 185, 4);
+  font-size: 28px;
+  font-family: emoji;
+  margin-top: -4px;
+}
+.nav-left .luxe:hover {
+  color: rgb(218, 185, 4);
+}
+.nav-left {
+  color: ;
+  display: flex;
+  align-items: center
+  font-size: ;
+}
+.nav-left a {
+  text-decoration: none;
+  font-size: large;
+  margin: 0 6%;
+  font-weight: 700;
+  color: black;
+}
+.nav-left a{
+  border-bottom: 3px solid white;
+  
+}
+.nav-left a:hover{
+  border-bottom: 3px solid red;
+  text-decoration: none;
+  color: black;
+}
+
+.hamburger{
+  display: none;
+}
+nav img {
+  max-width: 100%;
+  width: 86%;
+}
+.nav-right{
+  display: flex;
+  align-items: center;
+  font-size: 23px;
+  
+}
+.nav-right span {
+  margin: 0 1%;
+  color: black;
+}
+.nav-right input{
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  outline: none;
+  width: 200px;
+}
+.nav-right>div{
+  margin: 0 10px;
+}
+
+.search{
+  border-bottom: 1px solid gray;
+  display: flex;
+}
+.menu-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 4%;
+  margin-top: 69px;
+  margin-bottom: 1%;
+  z-index: 5;
+  flex-wrap: wrap;
+}
+.menu-list a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.menu-list a:hover {
+  text-decoration: none;
+  color: black;
+}
+.menu-list div{
+  border-bottom: 3px solid white;
+}
+.menu-list div:hover{
+  border-bottom: 3px solid black;
+  transition: ease-in;
+
+}
+@media screen and (max-width: 1024px) {
+  #top nav .hamburger{
+      display:block;
+      color: black;
+  }
+  .hamburger i{
+    color: black;
+  }
+  .nav-left{
+      display: none;
+  }
+  
+}
+@media screen and (max-width: 1200px){
+  nav{
+      padding: 0;
+  }
+  .nav-left a{
+      margin: 0 3%;
+  }
+}
+@media screen and (max-width: 860px){
+  .nav-right input, .nav-right .profile{
+      display: none;
+  }
+  .nav-right .search {
+      border: none;
+  }
+  .menu-list{
+      display: none;
+  }
+  h1 {
+      font-size: 20px;
+  }
+  .extra-img, .big-img{
+      display: none;
+  }
+}
+
+/* header end */
       
       @media screen and (max-width:500px) {
         .card-column-container> div{
