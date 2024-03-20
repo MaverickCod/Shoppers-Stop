@@ -211,6 +211,9 @@ h1{
     width: 100px; /* Adjust size as needed */
     height: 100px; /* Adjust size as needed */
   }
+  .last-section, .last-section a{
+    color: white;
+  }
 @media screen and (max-width: 1024px) {
     .hamburger{
         display:block;
