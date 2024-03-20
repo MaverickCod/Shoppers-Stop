@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+.img-cardcontainer{
+   display:flex; 
+   gap: 2rem;
+   justify-content: center;
+   width:100%;
+   flex-wrap: wrap;
+}
+.bestofall-container{
+   display: flex;
+   flex-direction: column; 
+   width:100%;
+}
+.bestofall-container img{
+    width:100%;
+}
+.img-couponcode-container{
+    display: flex;
+    flex-direction: column;
+}
+.img-couponcode img{
+    width:100%;
+}
+.img-categories-container{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
+.allcatalog{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:1rem;
+}
+.img-categories-container img{
+    width:100%;
+} 
+.img-summeredit{
+    display:flex;
+    flex-direction: column;
+}
+.img-summeredit img{
+    width:100%;
+}
+.carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        background-color: black !important;
+        border-radius: 50%;
+        padding: 5px;
+        width: 60px !important;
+        height: 60px !important;
+        background-size: 50% 50% !important;
+      } 
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      *::-webkit-scrollbar {
+        width: 0;
+      }
+      .main {
+        width: 100vw;
+        height: 100vh;
+        overflow: scroll;
+      }
+      
+      .card-row-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2.5rem;
+      }
+      .card-column-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      }
+      .card-column-container img {
+        width: 100%;
+      }
+      .card-column-container> div{
+        width: 90%;
+      }
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        background-color: black !important;
+        border-radius: 50%;
+        padding: 5px;
+        width: 40px !important;
+        height: 40px !important;
+        background-size: 50% 50% !important;
+      }
+      
+      
+      @media screen and (max-width:500px) {
+        .card-column-container> div{
+          width: 99%;
+        }
+        .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        padding: 5px;
+        width: 25px !important;
+        height: 25px !important;
+        background-size: 50% 50% !important;
+      }
+      }
+
+
