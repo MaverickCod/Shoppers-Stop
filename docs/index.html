@@ -199,6 +199,29 @@
       </div>
     </header>
 
+    <div class="loader-wrapper">
+      <img
+        src="Neeraj/Homepage/shopping-cart-ecomm.gif"
+        alt="Loading..."
+        class="loader"
+      />
+    </div>
+
+<script>
+     
+      const loaderDisplayDuration = 1000; // 1000 milliseconds
+
+      window.addEventListener("load", function () {
+        const loader = document.querySelector(".loader-wrapper");
+        setTimeout(function () {
+          loader.style.display = "none";
+        }, loaderDisplayDuration);
+      });
+    </script>
+
+
+
+
     <div id="men-women-navbar" class="flex justify-center items-center">
       <ul class="flex text-lg font-semibold font-serif tracking-wide pt-1 pb-0">
         <a href=""
